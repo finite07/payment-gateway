@@ -1,0 +1,123 @@
+.row{
+	position: relative;
+	display: flex;
+	width:100%;
+	justify-content: space-between;
+}
+.col{
+ 	position: relative;
+ 	width: 100%;
+}
+.row .col p{
+	color:black;
+	position: relative;
+	width:100%;
+	min-height: 300px;
+	font-family:poppins;
+	font-size:23px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.row .col .imgbx img{
+	position: absolute;
+	top:0;
+	left: 0;
+	width:70%;
+	height: 350px;
+	object-fit:cover;
+	margin-left:70px;
+	margin-top: 150px;
+}
+h2{
+	color:purple;
+	font-weight: bold;
+	font-size: 60px;
+	font-family:Times new roman;
+	text-align: center;
+	justify-content: center;
+	margin-left:80%;
+	text-decoration: underline;
+}
+
+
+/*styling index.html file*/
+.rows{
+	display: flex;
+	justify-content: space-between;
+        width: 100%
+}
+.cols{
+	position: relative;
+}
+.heading .rows .cols p{
+    color:purple;
+	font-weight: bold;
+	font-size:25px;
+	font-family:Times new roman;
+	text-align: left;
+	margin-left: 25px;
+}
+.heading .rows .cols a{
+	color:purple;
+	font-weight: bold;
+	font-size:20px;
+	font-family:Times new roman;
+	text-align:right;
+	margin-right: 40px;
+}
+.home{
+	text-align: center;
+	position: relative;
+	width: 100%;
+	justify-content: center;
+	background:url('pdd.jfif');
+	background-size: cover;
+	min-height: 100vh;
+    align-items: center;
+    margin-top:-20px;
+    display: flex;
+}
+.home .banner h3{
+	font-family:Times New Roman;
+	font-weight: bold;
+	font-size: 50px;
+	text-align:center;
+	color:#6495ED;
+	margin-left: 70px;
+	animation: movebar 2s ease-in-out;
+}
+@keyframes movebar{
+	0%{
+		transform: translateY(-45rem);
+		color:#B478ED;
+	}
+	100%{
+        transform: translateY(-90deg);
+    }
+}
+.home .banner p{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -30px;
+    color:black;
+}
+.home .banner .btn{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Times New Roman;
+	color:#4169E1;
+	cursor: pointer;
+	background-color: #DDA0DD;
+	padding:8px;
+	margin-top: -15px;
+	border:2px solid black;
+}
+footer {
+    background: black;
+    color: white;
+   
+    }
+    
+.btn:hover{
+	letter-spacing: 2px;
+}
